@@ -40,10 +40,10 @@ int main()
     cout<<cp2<<endl;
     delete [] cp2;
     vector<char> ivec(cp, cp+3);
-    cout<<ivec[5]<<endl;
+    cout<<ivec[5]<<flush;
     int& cp3 = sum;
     int result= sum != 0 ? 1 : 2;
-    cout<<result<<endl;
+    cout<<result<<ends;
     try{
 
     }catch(runtime_error err){
